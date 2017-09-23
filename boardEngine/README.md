@@ -1,0 +1,1 @@
+# Definizione di una generica scacchiera
