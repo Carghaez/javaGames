@@ -14,7 +14,7 @@ GOTO ERR
 :0
 :1
 if EXIST LogV%v%.log del LOGV%v%.log
-javac -cp "..\..;jarDipendenze\jl1.0.1.jar" "v%v%/*.java" -Xlint:unchecked > "LogV%v%.log" 2>&1
+javac -cp "..\..;jarDipendenze\jl1.0.1.jar" "v%v%/Startup.java" -Xlint:unchecked > "LogV%v%.log" 2>&1
 echo E' stato creato il file di log
 echo Premi '0' per visualizzarlo, qualsiasi altro tasto per uscire
 set /p scelta=
